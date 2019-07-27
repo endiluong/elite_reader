@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EliteReader</string>
+    <string name="title_home">Trang Chính</string>
+    <string name="title_library">Thư Viện</string>
+    <string name="title_category">Thể Loại</string>
+    <string name="title_user">Người Dùng</string>
+
+
+</resources>
