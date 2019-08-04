@@ -1,13 +1,28 @@
 package com.example.elitereader.Models;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import java.util.ArrayList;
 
 public class Novel {
+    @SerializedName("id")
+    @Expose
     private Integer id;
+    @SerializedName("name")
+    @Expose
     private String name;
+    @SerializedName("chapter")
+    @Expose
     private String chapter;
+    @SerializedName("lastUpdate")
+    @Expose
     private String lastUpdate;
+    @SerializedName("description")
+    @Expose
     private String description;
+    @SerializedName("imgLink")
+    @Expose
     private String imgLink;
 
     public Novel() {
